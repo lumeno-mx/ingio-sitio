@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ingio Services · Mantenimiento industrial y comercial en Chihuahua</title>
+<meta name="description" content="Mantenimiento industrial y comercial en Chihuahua: refrigeración, aire acondicionado e instalaciones eléctricas. Mantenimiento preventivo y correctivo para empresas y negocios.">
+<meta name="theme-color" content="#0b0d10">
+<link rel="canonical" href="https://ingio.mx/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="Ingio Services">
+<meta property="og:url" content="https://ingio.mx/">
+<meta property="og:title" content="Ingio Services · Mantenimiento industrial y comercial en Chihuahua">
+<meta property="og:description" content="Mantenimiento industrial y comercial en Chihuahua: refrigeración, aire acondicionado e instalaciones eléctricas. Mantenimiento preventivo y correctivo para empresas y negocios.">
+<meta property="og:image" content="https://ingio.mx/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{
+  --tinta:#101215; --tinta2:#555b64; --tinta3:#7a8089;
+  --papel:#ffffff; --papel2:#f4f5f7; --filete:#e2e5e9;
+  --negro:#0b0d10; --negro2:#15181d; --negro-tinta:#f4f6f8; --negro-tinta2:#a3abb5;
+  --negro-filete:rgba(255,255,255,.12);
+  --cian:#0099e5; --cian-tinta:#04121c; --icono:#0088cc; --cian-suave:#e6f5fd;
+  --verde-wa:#13803e;
+  --tarjeta:#ffffff; --campo:#f6f7f9; --campo-borde:#d5dae0;
+  --sistema:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --tinta:#eef1f4; --tinta2:#a6adb6; --tinta3:#858c95;
+  --papel:#0e1115; --papel2:#14181d; --filete:#252a31;
+  --negro:#060708; --negro2:#121418; --cian:#1aa6ef; --icono:#1aa6ef; --cian-suave:#0f2533;
+  --tarjeta:#171b21; --campo:#0f1216; --campo-borde:#2c323a;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --tinta:#eef1f4; --tinta2:#a6adb6; --tinta3:#858c95;
+  --papel:#0e1115; --papel2:#14181d; --filete:#252a31;
+  --negro:#060708; --negro2:#121418; --cian:#1aa6ef; --icono:#1aa6ef; --cian-suave:#0f2533;
+  --tarjeta:#171b21; --campo:#0f1216; --campo-borde:#2c323a;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:var(--sistema);font-size:17px;
+  line-height:1.5;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--cian);outline-offset:3px;border-radius:6px}
+.env{max-width:1160px;margin:0 auto;padding-inline:22px}
+h1,h2,h3{margin:0;text-wrap:balance}
+.ic{width:24px;height:24px}
+.barra{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--negro);
+  border-bottom:1px solid var(--negro-filete)}
+.barra .env{display:flex;align-items:center;gap:28px;height:64px}
+.logo{width:92px;flex:none}
+.menu{display:none;gap:26px;margin-left:auto}
+@media(min-width:760px){.menu{display:flex}}
+.menu a{color:var(--negro-tinta2);text-decoration:none;font-size:15px}
+.menu a:hover{color:var(--negro-tinta)}
+.barra .tel{margin-left:auto;color:var(--negro-tinta);text-decoration:none;font-weight:600;font-size:15px;
+  display:flex;align-items:center;gap:8px;white-space:nowrap}
+@media(min-width:760px){.barra .tel{margin-left:0}}
+.barra .tel .ic{width:18px;height:18px;color:var(--cian)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:inherit;font-size:16px;
+  font-weight:600;padding:14px 22px;border-radius:10px;text-decoration:none;white-space:nowrap;border:1px solid transparent;
+  cursor:pointer;transition:filter .15s ease,border-color .15s ease,transform .1s ease-out}
+.btn .ic{width:20px;height:20px}
+.btn-1{background:var(--cian);color:var(--cian-tinta)}
+.btn-1:hover{filter:brightness(1.08)}
+.btn:active{transform:scale(.97)}
+.heroe{background:var(--negro);color:var(--negro-tinta)}
+.heroe .env{display:grid;gap:40px;align-items:center;padding-block:clamp(48px,7vw,84px)}
+@media(min-width:960px){.heroe .env{grid-template-columns:1.1fr .9fr;gap:64px}}
+.heroe .env>*{min-width:0}
+.heroe h1{font-size:clamp(36px,5.4vw,58px);font-weight:700;line-height:1.05;letter-spacing:-.028em}
+.heroe .guia{margin:18px 0 0;color:var(--negro-tinta2);font-size:18.5px;max-width:42ch}
+.checks{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:12px}
+.checks li{display:flex;gap:12px;align-items:flex-start;font-size:16.5px}
+.checks .ic{width:22px;height:22px;color:var(--cian);flex:none;margin-top:1px}
+.checks span{color:var(--negro-tinta2)}
+.cotizador{background:var(--tarjeta);color:var(--tinta);border-radius:16px;padding:28px;
+  box-shadow:0 24px 60px -24px rgba(0,0,0,.55)}
+.cotizador h2{font-size:23px;font-weight:700;letter-spacing:-.015em}
+.cotizador>p{margin:6px 0 0;color:var(--tinta2);font-size:15px}
+.campos{display:grid;gap:14px;margin-top:22px}
+@media(min-width:520px){.campos{grid-template-columns:1fr 1fr}.campos .ancho{grid-column:1/-1}}
+.campo{display:grid;gap:6px;min-width:0}
+.campo label{font-size:13.5px;font-weight:600;color:var(--tinta2)}
+.campo input,.campo select,.campo textarea{width:100%;font:inherit;font-size:16px;color:var(--tinta);
+  background:var(--campo);border:1px solid var(--campo-borde);border-radius:9px;padding:11px 13px}
+.campo textarea{min-height:84px;resize:vertical}
+.campo input:focus,.campo select:focus,.campo textarea:focus{outline:2px solid var(--cian);outline-offset:0;border-color:transparent}
+.cotizador .btn{width:100%;margin-top:18px;background:var(--verde-wa);color:#ffffff}
+.aviso{margin:10px 0 0;font-size:13px;color:var(--tinta3);text-align:center}
+section{padding-block:clamp(60px,8vw,96px)}
+.cabeza{max-width:52ch}
+.cabeza h2{font-size:clamp(28px,4vw,40px);font-weight:700;letter-spacing:-.025em;line-height:1.1}
+.cabeza p{margin:12px 0 0;color:var(--tinta2);font-size:17.5px}
+.gris{background:var(--papel2)}
+.servicios{display:grid;gap:16px;margin-top:clamp(32px,4vw,44px)}
+@media(min-width:640px){.servicios{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:960px){.servicios{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.srv{background:var(--papel);border:1px solid var(--filete);border-radius:14px;padding:26px;min-width:0}
+.cuadro{width:48px;height:48px;border-radius:12px;background:var(--cian-suave);display:grid;place-items:center;color:var(--icono)}
+.srv h3{margin-top:18px;font-size:19px;font-weight:600;letter-spacing:-.012em}
+.srv p{margin:8px 0 0;color:var(--tinta2);font-size:15.5px}
+.sectores{list-style:none;margin:clamp(30px,4vw,40px) 0 0;padding:0;display:flex;flex-wrap:wrap;gap:12px}
+.sectores li{display:flex;align-items:center;gap:10px;padding:12px 20px;border-radius:999px;
+  border:1px solid var(--filete);font-weight:600;font-size:16px}
+.sectores .ic{width:22px;height:22px;color:var(--icono)}
+.cierre{background:var(--negro);color:var(--negro-tinta)}
+.cierre .env{display:grid;gap:26px;align-items:center}
+@media(min-width:860px){.cierre .env{grid-template-columns:1fr auto;gap:40px}}
+.cierre h2{font-size:clamp(28px,4vw,40px);font-weight:700;letter-spacing:-.025em}
+.cierre p{margin:10px 0 0;color:var(--negro-tinta2)}
+.cierre .lado{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.cierre .tel{color:var(--negro-tinta);text-decoration:none;font-size:20px;font-weight:600;padding:12px 8px}
+footer{background:var(--negro);color:var(--negro-tinta2);border-top:1px solid var(--negro-filete)}
+footer .env{padding-block:24px calc(92px + env(safe-area-inset-bottom,0px));display:flex;flex-wrap:wrap;
+  gap:8px 24px;justify-content:space-between;font-size:13.5px}
+footer a{text-decoration:none}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;width:56px;height:56px;
+  border-radius:50%;display:grid;place-items:center;background:var(--verde-wa);color:#ffffff;
+  box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.wa .ic{width:30px;height:30px}
+.wa{transition:opacity .2s ease,transform .2s ease}
+.wa.oculto{opacity:0;transform:scale(.8);pointer-events:none}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="barra"><div class="env">
+  <span class="logo"><img src="img/logo-claro.png" width="560" height="245" alt="Ingio"></span>
+  <nav class="menu" aria-label="Secciones"><a href="#servicios">Servicios</a><a href="#sectores">Sectores</a><a href="#contacto">Contacto</a></nav>
+  <a class="tel" href="tel:+526142097633"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"/></svg>614 209 7633</a>
+</div></header>
+<main>
+  <div class="heroe"><div class="env">
+    <div>
+      <h1>Mantenimiento industrial y comercial en Chihuahua</h1>
+      <p class="guia">Refrigeración, aire acondicionado e instalaciones eléctricas para empresas y negocios.</p>
+      <ul class="checks">
+        <li><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M224,64H176V56a24,24,0,0,0-24-24H104A24,24,0,0,0,80,56v8H32A16,16,0,0,0,16,80V192a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V80A16,16,0,0,0,224,64ZM96,56a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM224,80v32H192v-8a8,8,0,0,0-16,0v8H80v-8a8,8,0,0,0-16,0v8H32V80Zm0,112H32V128H64v8a8,8,0,0,0,16,0v-8h96v8a8,8,0,0,0,16,0v-8h32v64Z"/></svg><div><b>Equipo propio</b> <span>para servicios industriales y comerciales</span></div></li>
+        <li><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M244.8,150.4a8,8,0,0,1-11.2-1.6A51.6,51.6,0,0,0,192,128a8,8,0,0,1-7.37-4.89,8,8,0,0,1,0-6.22A8,8,0,0,1,192,112a24,24,0,1,0-23.24-30,8,8,0,1,1-15.5-4A40,40,0,1,1,219,117.51a67.94,67.94,0,0,1,27.43,21.68A8,8,0,0,1,244.8,150.4ZM190.92,212a8,8,0,1,1-13.84,8,57,57,0,0,0-98.16,0,8,8,0,1,1-13.84-8,72.06,72.06,0,0,1,33.74-29.92,48,48,0,1,1,58.36,0A72.06,72.06,0,0,1,190.92,212ZM128,176a32,32,0,1,0-32-32A32,32,0,0,0,128,176ZM72,120a8,8,0,0,0-8-8A24,24,0,1,1,87.24,82a8,8,0,1,0,15.5-4A40,40,0,1,0,37,117.51,67.94,67.94,0,0,0,9.6,139.19a8,8,0,1,0,12.8,9.61A51.6,51.6,0,0,1,64,128,8,8,0,0,0,72,120Z"/></svg><div><b>Equipos de trabajo</b> <span>para el mantenimiento que se requiera</span></div></li>
+        <li><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-38.34-85.66a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L116,164.69l42.34-42.35A8,8,0,0,1,169.66,122.34Z"/></svg><div><b>Preventivo y correctivo</b> <span>programas y atención de fallas</span></div></li>
+      </ul>
+    </div>
+    <form class="cotizador" id="cotizador" aria-labelledby="cotiza-titulo">
+      <h2 id="cotiza-titulo">Solicita tu cotización</h2>
+      <p>Llena los datos y se abre WhatsApp con tu mensaje listo.</p>
+      <div class="campos">
+        <div class="campo"><label for="c-nombre">Nombre</label><input id="c-nombre" name="nombre" autocomplete="name"></div>
+        <div class="campo"><label for="c-empresa">Empresa</label><input id="c-empresa" name="empresa" autocomplete="organization"></div>
+        <div class="campo ancho"><label for="c-servicio">Servicio</label>
+          <select id="c-servicio" name="servicio">
+            <option>Refrigeración</option><option>Aire acondicionado</option><option>Instalaciones eléctricas</option>
+            <option>Mantenimiento preventivo</option><option>Mantenimiento correctivo</option><option>Servicios generales</option>
+          </select></div>
+        <div class="campo ancho"><label for="c-detalle">Equipo y ubicación</label>
+          <textarea id="c-detalle" name="detalle" placeholder="Ejemplo: 3 minisplits en oficina, colonia Centro"></textarea></div>
+      </div>
+      <a class="btn" id="c-enviar" href="https://wa.me/526142097633"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></svg>Enviar por WhatsApp</a>
+      <p class="aviso">Te respondemos por el mismo medio.</p>
+    </form>
+  </div></div>
+  <section class="gris" id="servicios"><div class="env">
+    <div class="cabeza"><h2>Servicios</h2><p>Instalación, mantenimiento y reparación de equipos e instalaciones.</p></div>
+    <div class="servicios">
+      <article class="srv"><div class="cuadro"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M223.77,150.09a8,8,0,0,1-5.86,9.68l-24.64,6,6.46,24.11a8,8,0,0,1-5.66,9.8A8.25,8.25,0,0,1,192,200a8,8,0,0,1-7.72-5.93l-7.72-28.8L136,141.86v46.83l21.66,21.65a8,8,0,0,1-11.32,11.32L128,203.31l-18.34,18.35a8,8,0,0,1-11.32-11.32L120,188.69V141.86L79.45,165.27l-7.72,28.8A8,8,0,0,1,64,200a8.25,8.25,0,0,1-2.08-.27,8,8,0,0,1-5.66-9.8l6.46-24.11-24.64-6a8,8,0,0,1,3.82-15.54l29.45,7.23L112,128,71.36,104.54l-29.45,7.23A7.85,7.85,0,0,1,40,112a8,8,0,0,1-1.91-15.77l24.64-6L56.27,66.07a8,8,0,0,1,15.46-4.14l7.72,28.8L120,114.14V67.31L98.34,45.66a8,8,0,0,1,11.32-11.32L128,52.69l18.34-18.35a8,8,0,0,1,11.32,11.32L136,67.31v46.83l40.55-23.41,7.72-28.8a8,8,0,0,1,15.46,4.14l-6.46,24.11,24.64,6A8,8,0,0,1,216,112a7.85,7.85,0,0,1-1.91-.23l-29.45-7.23L144,128l40.64,23.46,29.45-7.23A8,8,0,0,1,223.77,150.09Z"/></svg></div><h3>Refrigeración</h3><p>Mantenimiento, reparación e instalación de equipos de refrigeración comercial e industrial.</p></article>
+      <article class="srv"><div class="cuadro"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M233,135a60,60,0,0,0-89.62-35.45l16.39-65.44a8,8,0,0,0-3.45-8.68A60,60,0,1,0,95.69,128.91L30.82,147.44a8,8,0,0,0-5.8,7.32,60,60,0,0,0,44.42,60.66,60.52,60.52,0,0,0,15.62,2.07,60.07,60.07,0,0,0,59.88-62l48.48,46.92a8,8,0,0,0,9.25,1.35A60,60,0,0,0,233,135Zm-121-7a16,16,0,1,1,16,16A16,16,0,0,1,112,128ZM80,76a44,44,0,0,1,62.75-39.82L127.77,96A32,32,0,0,0,99.85,112.8,43.85,43.85,0,0,1,80,76Zm27,119.57a44,44,0,0,1-65.86-34.43l59.31-16.94A32,32,0,0,0,128,160l.91,0A43.82,43.82,0,0,1,107,195.57Zm106.17-23a43.92,43.92,0,0,1-13,14.14l-44.32-42.89a31.91,31.91,0,0,0-.59-32.57,44,44,0,0,1,57.91,61.32Z"/></svg></div><h3>Aire acondicionado</h3><p>Minisplits y sistemas HVAC: instalación, mantenimiento y reparación.</p></article>
+      <article class="srv"><div class="cuadro"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M215.79,118.17a8,8,0,0,0-5-5.66L153.18,90.9l14.66-73.33a8,8,0,0,0-13.69-7l-112,120a8,8,0,0,0,3,13l57.63,21.61L88.16,238.43a8,8,0,0,0,13.69,7l112-120A8,8,0,0,0,215.79,118.17ZM109.37,214l10.47-52.38a8,8,0,0,0-5-9.06L62,132.71l84.62-90.66L136.16,94.43a8,8,0,0,0,5,9.06l52.8,19.8Z"/></svg></div><h3>Instalaciones eléctricas</h3><p>Mantenimiento de tableros e instalaciones eléctricas.</p></article>
+      <article class="srv"><div class="cuadro"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-38.34-85.66a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L116,164.69l42.34-42.35A8,8,0,0,1,169.66,122.34Z"/></svg></div><h3>Mantenimiento preventivo</h3><p>Programas por equipo y por fecha para reducir fallas y paros.</p></article>
+      <article class="srv"><div class="cuadro"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M226.76,69a8,8,0,0,0-12.84-2.88l-40.3,37.19-17.23-3.7-3.7-17.23,37.19-40.3A8,8,0,0,0,187,29.24,72,72,0,0,0,88,96,72.34,72.34,0,0,0,94,124.94L33.79,177c-.15.12-.29.26-.43.39a32,32,0,0,0,45.26,45.26c.13-.13.27-.28.39-.42L131.06,162A72,72,0,0,0,232,96,71.56,71.56,0,0,0,226.76,69ZM160,152a56.14,56.14,0,0,1-27.07-7,8,8,0,0,0-9.92,1.77L67.11,211.51a16,16,0,0,1-22.62-22.62L109.18,133a8,8,0,0,0,1.77-9.93,56,56,0,0,1,58.36-82.31l-31.2,33.81a8,8,0,0,0-1.94,7.1L141.83,108a8,8,0,0,0,6.14,6.14l26.35,5.66a8,8,0,0,0,7.1-1.94l33.81-31.2A56.06,56.06,0,0,1,160,152Z"/></svg></div><h3>Mantenimiento correctivo</h3><p>Diagnóstico y reparación de fallas en sitio.</p></article>
+      <article class="srv"><div class="cuadro"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M232,88H216V64a16,16,0,0,0-16-16H48A16,16,0,0,0,32,64V88H16a8,8,0,0,0,0,16H32v24a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V104h16v50L131.6,182.65A16.07,16.07,0,0,0,120,198v34a8,8,0,0,0,16,0V198l100.4-28.68A16.07,16.07,0,0,0,248,154V104A16,16,0,0,0,232,88Zm-32,40H48V64H200v64Z"/></svg></div><h3>Servicios generales</h3><p>Pintura, obra menor y adecuaciones en instalaciones.</p></article>
+    </div>
+  </div></section>
+  <section id="sectores"><div class="env">
+    <div class="cabeza"><h2>Sectores que atendemos</h2></div>
+    <ul class="sectores">
+      <li><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M116,176a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h28A8,8,0,0,1,116,176Zm60-8H148a8,8,0,0,0,0,16h28a8,8,0,0,0,0-16Zm64,48a8,8,0,0,1-8,8H24a8,8,0,0,1,0-16h8V88a8,8,0,0,1,12.8-6.4L96,120V88a8,8,0,0,1,12.8-6.4l38.74,29.05L159.1,29.74A16.08,16.08,0,0,1,174.94,16h18.12A16.08,16.08,0,0,1,208.9,29.74l15,105.13s.08.78.08,1.13v72h8A8,8,0,0,1,240,216Zm-77.86-94.4,8.53,6.4h36.11L193.06,32H174.94ZM48,208H208V144H168a8,8,0,0,1-4.8-1.6l-14.4-10.8,0,0L112,104v32a8,8,0,0,1-12.8,6.4L48,104Z"/></svg>Industria</li><li><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M232,96a7.89,7.89,0,0,0-.3-2.2L217.35,43.6A16.07,16.07,0,0,0,202,32H54A16.07,16.07,0,0,0,38.65,43.6L24.31,93.8A7.89,7.89,0,0,0,24,96h0v16a40,40,0,0,0,16,32v72a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V144a40,40,0,0,0,16-32V96ZM54,48H202l11.42,40H42.61Zm50,56h48v8a24,24,0,0,1-48,0Zm-16,0v8a24,24,0,0,1-35.12,21.26,7.88,7.88,0,0,0-1.82-1.06A24,24,0,0,1,40,112v-8ZM200,208H56V151.2a40.57,40.57,0,0,0,8,.8,40,40,0,0,0,32-16,40,40,0,0,0,64,0,40,40,0,0,0,32,16,40.57,40.57,0,0,0,8-.8Zm4.93-75.8a8.08,8.08,0,0,0-1.8,1.05A24,24,0,0,1,168,112v-8h48v8A24,24,0,0,1,204.93,132.2Z"/></svg>Comercio</li>
+      <li><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"/></svg>Educación</li><li><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M72,88V40a8,8,0,0,1,16,0V88a8,8,0,0,1-16,0ZM216,40V224a8,8,0,0,1-16,0V176H152a8,8,0,0,1-8-8,268.75,268.75,0,0,1,7.22-56.88c9.78-40.49,28.32-67.63,53.63-78.47A8,8,0,0,1,216,40ZM200,53.9c-32.17,24.57-38.47,84.42-39.7,106.1H200ZM119.89,38.69a8,8,0,1,0-15.78,2.63L112,88.63a32,32,0,0,1-64,0l7.88-47.31a8,8,0,1,0-15.78-2.63l-8,48A8.17,8.17,0,0,0,32,88a48.07,48.07,0,0,0,40,47.32V224a8,8,0,0,0,16,0V135.32A48.07,48.07,0,0,0,128,88a8.17,8.17,0,0,0-.11-1.31Z"/></svg>Restaurantes</li>
+    </ul>
+  </div></section>
+  <section class="cierre" id="contacto"><div class="env">
+    <div><h2>¿Necesitas una visita?</h2><p>Escríbenos o llámanos. Correo: ingio.cuu@gmail.com</p></div>
+    <div class="lado">
+      <a class="btn btn-1" href="https://wa.me/526142097633?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n."><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></svg>Solicitar cotización</a>
+      <a class="tel" href="tel:+526142097633">614 209 7633</a>
+    </div>
+  </div></section>
+</main>
+<footer><div class="env"><span>© Ingio Services · Chihuahua, Chih.</span><a href="tel:+526142097633">614 209 7633</a></div></footer>
+<a class="wa" href="https://wa.me/526142097633?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n." aria-label="Escribir por WhatsApp"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></svg></a>
+<script>
+(function () {
+  "use strict";
+  var f = document.getElementById("cotizador");
+  var a = document.getElementById("c-enviar");
+  function arma() {
+    var d = new FormData(f), lineas = ["Hola, quiero solicitar una cotización."];
+    if (d.get("nombre")) lineas.push("Nombre: " + d.get("nombre"));
+    if (d.get("empresa")) lineas.push("Empresa: " + d.get("empresa"));
+    lineas.push("Servicio: " + d.get("servicio"));
+    if (d.get("detalle")) lineas.push("Equipo y ubicación: " + d.get("detalle"));
+    a.href = "https://wa.me/526142097633?text=" + encodeURIComponent(lineas.join("\n"));
+  }
+  f.addEventListener("input", arma);
+  f.addEventListener("submit", function (e) { e.preventDefault(); });
+  arma();
+  var wa = document.querySelector(".wa");
+  if (wa && "IntersectionObserver" in window) {
+    var vistos = new Set();
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) vistos.add(e.target); else vistos.delete(e.target); });
+      wa.classList.toggle("oculto", vistos.size > 0);
+    }, { threshold: 0.15 });
+    [f, document.getElementById("contacto")].forEach(function (el) { if (el) io.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>
